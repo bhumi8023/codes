@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+void last(int number){
+int digit = number%10;
+}
+
+
+
+int main(){
+    int number,digit;
+    cout<<"number: ";
+    cin>>number;
+    last(number);
+    cout<<"the first digit is: ";
+
+    return 0;
+}
